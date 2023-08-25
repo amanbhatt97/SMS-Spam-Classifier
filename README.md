@@ -1,6 +1,8 @@
 # SMS-Spam-Classifier
 The SMS-Spam-Classifier is a machine learning-based web application that predicts whether a sms is spam or not.
 
+Access the deployed Streamlit web app [here](https://spam-classifier-sms.streamlit.app/).
+
 ## Table of Contents
 
 - [Description](#description)
@@ -8,7 +10,6 @@ The SMS-Spam-Classifier is a machine learning-based web application that predict
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Web App](#web_app)
 - [Portfolio](#portfolio)
 - [Contact](#contact)
 
@@ -26,7 +27,7 @@ The **SMS-Spam-Classifier** is implemented as a Streamlit web application.
 
 ## Installation
 
-1. Clone this repository to your local machine: git clone https://github.com/amanbhatt97/SMS-Spam-Classifier
+1. Clone this repository to your local machine: `git clone https://github.com/amanbhatt97/SMS-Spam-Classifier`
 2. Install the required dependencies using `pip`: pip install -r requirements.txt
 
  ## Usage
@@ -42,10 +43,6 @@ The **SMS-Spam-Classifier** is implemented as a Streamlit web application.
 - `data/`: Directory containing the movies datasets.
 - `requirements.txt`: List of required Python packages and their versions.
 - `README.md`: Overview of the project (you're reading it right now!).
-
-## Web App
-
-Access the deployed Streamlit web app [here](https://spam-classifier-sms.streamlit.app/).
 
 ## Portfolio
 
