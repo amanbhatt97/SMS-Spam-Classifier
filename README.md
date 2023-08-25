@@ -22,7 +22,6 @@ The **SMS-Spam-Classifier** is implemented as a Streamlit web application.
 - Streamlit: Interactive web application framework
 - Scikit-learn: Machine learning library for model loading
 - Pandas: Data manipulation library
-- Joblib: For loading the pre-trained model
 - Git: Version control and collaboration
 
 ## Installation
