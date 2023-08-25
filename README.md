@@ -34,7 +34,7 @@ The **SMS Spam Classifier** is a web application developed with Streamlit, a Pyt
 
 1. Run the Streamlit app: streamlit run app.py
 2. Type in the message you want to check for spam.
-3. Click the "Predict" button to view the movie recommendations.
+3. Click the `Predict` button to view the movie recommendations.
 
 ## Project Structure
 
@@ -43,7 +43,7 @@ The **SMS Spam Classifier** is a web application developed with Streamlit, a Pyt
 - `models/`: Directory containing the pre-trained models.
 - `README.md`: Overview of the project (you're reading it right now!).
 - `requirements.txt`: List of required Python packages and their versions.
-- 
+- `sms-analysis.ipynb`: Notebook containing all the analysis and model training.
 
 
 ## Portfolio
