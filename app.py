@@ -8,6 +8,16 @@ from nltk.corpus import stopwords           # for removing stopwords
 import string           # to remove strings
 from nltk.stem import PorterStemmer         # for stemming
 
+# to interact with the operating system's file system
+import os
+
+# get the parent directory path
+parent_directory = os.getcwd()
+
+# paths
+model_path = os.path.join(parent_directory, 'model') 
+
+
 # """ 4 things to do: """
 # 1. preprocess
 # 2. vectorize
@@ -53,8 +63,8 @@ def transform_text(text):
 
 
 # open vectorizer and model
-tfidf = pickle.load(open('vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+tfidf = pickle.load(open(os.path.join(model_path, 'vectorizer.pkl'),'rb'))
+model = pickle.load(open(os.path.join(model_path, 'model.pkl'),'rb'))
 
 
 # frontend part
