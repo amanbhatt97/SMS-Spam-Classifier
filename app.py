@@ -67,8 +67,12 @@ tfidf = pickle.load(open(os.path.join(model_path, 'vectorizer.pkl'),'rb'))
 model = pickle.load(open(os.path.join(model_path, 'model.pkl'),'rb'))
 
 
-# frontend part
+#----- frontend part -----#
+
+# side bar
+st.sidebar.info("Welcome to the SMS Spam Classfier dashboard!")
 st.title('SMS Spam Classifier')         # display title
+st.markdown("---")
 input_sms = st.text_area('Enter the message')            # display single-line text input widget.
 
 # adding a button
@@ -84,5 +88,43 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
+
+# Define usage instructions as a string
+usage_instructions = """
+**User Instructions**
+
+1. Type a message to check for spam.
+2. Click on **Predict** button.
+
+"""
+
+spam_messages_example = """
+1. You are awarded a SiPix Digital Camera! call 09061221061 from landline.
+2. You have an important customer service announcement. Call FREEPHONE 0800 542 0825 now!
+
+"""
+
+with st.sidebar:
+    st.markdown("---")
+    st.markdown(usage_instructions)
+    st.markdown("---")
+    st.info('Some examples of spam messages: ')
+    st.info(spam_messages_example)
+
+
+with st.container():
+    st.markdown("---")
+    st.subheader("About the Dashboard")
+    st.markdown("Welcome to the SMS Spam Classifier Dashboard!")
+    st.markdown("This interactive application uses Naive Bayes algorithm and predicts whether a sms is spam or not.")
+    st.markdown("---")
+    st.subheader("Contact Information")
+    st.markdown("Feel free to reach out to me if you have any questions or feedback. You can find me on:")
+    st.markdown("Mail: [amanbhatt.1997.ab@gmail.com](mailto:amanbhatt.1997.ab@gmail.com)")
+    st.markdown("Linkedin: [amanbhatt97](https://www.linkedin.com/in/amanbhatt1997/)")
+    st.markdown("Github: [amanbhatt97](https://github.com/amanbhatt97)")
+    st.markdown("Checkout my portfolio [here](https://amanbhatt97.github.io/portfolio/).")
+    st.markdown("---")
 
 
