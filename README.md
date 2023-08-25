@@ -1,5 +1,5 @@
 # SMS-Spam-Classifier
-The Movie Recommendation System is a machine learning-based web application that predicts whether a sms is spam or not.
+The SMS-Spam-Classifier is a machine learning-based web application that predicts whether a sms is spam or not.
 
 ## Table of Contents
 
