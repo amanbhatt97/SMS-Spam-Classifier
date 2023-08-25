@@ -32,8 +32,8 @@ The **SMS-Spam-Classifier** is implemented as a Streamlit web application.
  ## Usage
 
 1. Run the Streamlit app: streamlit run app.py
-2. Use the dropdowns to select movies or type in the movie name.
-3. Click the "Show Recommendations" button to view the movie recommendations.
+2. Type in the message you want to check for spam.
+3. Click the "Predict" button to view the movie recommendations.
 
 ## Project Structure
 
